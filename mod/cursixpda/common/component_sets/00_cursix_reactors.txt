@@ -1,0 +1,9 @@
+# Icons set here are the ones shown in compnent editor list.
+
+component_set = {
+	key = "CURSIXPDA_9V_BAT"
+	
+	icon = "GFX_ship_part_cursix9vbat"
+	icon_frame = 1	
+}
+

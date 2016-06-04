@@ -1,0 +1,20 @@
+# Triggers when starting a new game
+on_press_begin = {
+	events = {
+		tutorial.104
+		advisor.1
+		cursixpda.1
+	}
+}
+
+# Triggers when loading a save
+on_tutorial_level_changed = {
+	events = {
+		tutorial.100 # Show what has been enabled / disabled
+		tutorial.101 # Show what has been enabled / disabled
+		tutorial.102 # Show what has been enabled / disabled
+		tutorial.103 # Disable irrelevant tutorial stuff
+		cursixpda.2
+	}
+}
+

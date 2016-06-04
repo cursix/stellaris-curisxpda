@@ -1,0 +1,39 @@
+﻿l_english:
+
+ YES:0 "Yes"
+ NO:0 "No"
+
+ ####################################
+ # Traits
+ ####################################
+
+ cursixpda_buff:0 "Cursix PDA"
+ cursixpda_buff_desc:0 "§LThat little PDA on the moon has been turned on again!§!\n"
+ 
+ 
+
+####################################
+# Events
+####################################
+
+cursixpda.1.name:0 "Cursix PDA Activation"
+cursixpda.1.desc:0 "Shall Cursix curse your empire?"
+cursixpda.2.name:0 "Cursix PDA Activation"
+cursixpda.2.desc:0 "Shall Cursix curse your empire?"
+
+####################################
+# Technology
+####################################
+
+tech_cursixpda_stylus:0 "Cursix PDA Stylus"
+tech_cursixpda_stylus_desc:0 "Adds a biometal tipped, netronium alloyed stylus to use with the Cursix PDA."
+
+####################################
+# Component Utilities
+####################################
+
+CURSIXPDA_9V_BAT:0 "Cursix 9V Battery"
+CURSIXPDA_9V_BAT_DESC:0 "By compacting Sonic's scrambled eggs with a hint of one of Rose's curses into a small 9V battery cassing, we create an energy source that rivals Zero Point Energy!\n\n(Use at your own perl)"
+SMALL_CURSIXPDA_9V_BAT:0 "Small Cursix 9V Battery"
+MEDIUM_CURSIXPDA_9V_BAT:0 "Medium Cursix 9V Battery"
+LARGE_CURSIXPDA_9V_BAT:0 "Large Cursix 9V Battery"

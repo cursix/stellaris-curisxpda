@@ -1,0 +1,60 @@
+#########################################
+#
+# on_action_events
+#
+#########################################
+
+namespace = cursixpda
+
+# Add CursixPDA new game
+country_event = {
+	id = cursixpda.1
+	title = "cursixpda.1.name"
+	desc = {
+		text = "cursixpda.1.desc"
+	}
+	picture = GFX_evt_cybernetics
+	
+	
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+	
+	option = {
+		name = YES
+		add_modifier = { modifier = "cursixpda_buff" days = -1 }
+		give_technology = tech_cursixpda_stylus
+
+	}
+	option = {
+		name = NO
+	}
+}
+
+# Add CursixPDA load game
+country_event = {
+	id = cursixpda.2
+	title = "cursixpda.2.name"
+	desc = {
+		text = "cursixpda.2.desc"
+	}
+	picture = GFX_evt_cybernetics
+	
+	
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+	
+	option = {
+		name = YES
+		add_modifier = { modifier = "cursixpda_buff" days = -1 }
+		give_technology = tech_cursixpda_stylus
+	}
+	option = {
+		name = NO
+	}
+}

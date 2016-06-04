@@ -1,0 +1,57 @@
+#############
+# UTILITIES #
+#############
+
+### REACTORS
+
+# Cursix 9v Battery
+utility_component_template = {
+	key = "SMALL_CURSIXPDA_9V_BAT"
+	size = small
+	icon = "GFX_ship_part_cursix9vbat"
+	icon_frame = 1
+	power = 300
+	cost = 1
+	
+	modifier = {
+		ship_shield_hp_add = 125
+		ship_shield_regen_add = 5.0
+	}
+	
+	prerequisites = { "tech_cursixpda_stylus" }
+	component_set = "CURSIXPDA_9V_BAT"
+}
+
+utility_component_template = {
+	key = "MEDIUM_CURSIXPDA_9V_BAT"
+	size = medium
+	icon = "GFX_ship_part_cursix9vbat"
+	icon_frame = 1
+	power = 600
+	cost = 2
+	
+	modifier = {
+		ship_shield_hp_add = 250
+		ship_shield_regen_add = 7.5
+	}
+	
+	prerequisites = { "tech_cursixpda_stylus" }
+	component_set = "CURSIXPDA_9V_BAT"
+}
+
+utility_component_template = {
+	key = "LARGE_CURSIXPDA_9V_BAT"
+	size = large
+	icon = "GFX_ship_part_cursix9vbat"
+	icon_frame = 1
+	power = 1200
+	cost = 3
+
+	modifier = {
+		ship_shield_hp_add = 500
+		ship_shield_regen_add = 10.0
+	}
+	
+	prerequisites = { "tech_cursixpda_stylus"  }
+	component_set = "CURSIXPDA_9V_BAT"
+}

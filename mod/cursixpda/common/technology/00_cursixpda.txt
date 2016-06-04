@@ -1,0 +1,12 @@
+tech_cursixpda_stylus = {
+	area = physics
+	cost = 100
+	tier = 1
+	category = { particles }
+	ai_update_type = all
+	weight = 0
+	
+	ai_weight = {
+		factor = 0
+	}
+}
