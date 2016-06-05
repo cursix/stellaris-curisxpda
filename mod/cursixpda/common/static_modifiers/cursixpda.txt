@@ -62,7 +62,7 @@ cursixpda_buff = {
 	ship_ftl_warp_range_mult = 1.0
 	ship_ftl_wormhole_speed_mult = 0.25
 	ship_ftl_wormhole_range_mult = 0.50
-	ship_ftl_jumpdrive_range_mul = 0.50
+	ship_ftl_jumpdrive_range_mul = 1.00
 	spaceport_ship_build_cost_mult = -0.90 
 	spaceport_ship_build_time_mult = -0.99
 	spaceport_module_cost_mult = -0.90
@@ -94,5 +94,5 @@ cursixpda_buff = {
 	shipsize_military_station_small_upkeep_mult = -0.90
 	shipsize_military_station_medium_upkeep_mult = -0.90
 	shipsize_military_station_large_upkeep_mult = -0.90
-	terraforming_cost_mult = -0.9
+	terraforming_cost_mult = -0.90
 }
