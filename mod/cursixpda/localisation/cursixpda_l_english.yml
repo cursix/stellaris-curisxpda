@@ -39,5 +39,7 @@ CURSIXPDA_9V_BAT_DESC:0 "By compacting Sonic's scrambled eggs with a hint of one
 SMALL_CURSIXPDA_9V_BAT:0 "Small Cursix 9V Battery"
 MEDIUM_CURSIXPDA_9V_BAT:0 "Medium Cursix 9V Battery"
 LARGE_CURSIXPDA_9V_BAT:0 "Large Cursix 9V Battery"
+science_labs:0 "Science Labs"
+science_labs_desc:0 "Improves Science Ships"
 MEDIUM_SCIENCE_LAB_CURSIX:0 "Intelligent Device Science Lab"
-MEDIUM_SCIENCE_LAB_CURSIX_DESC:0 "Adding a Mid-Childa Intelligent to the Science Lab greatly improves ship's defenses allow research to venture even further into the void.\n\n(Cartridges not Included)"
+MEDIUM_SCIENCE_LAB_CURSIX_DESC:0 "Adding a Mid-Childa Intelligent to the Science Lab greatly improves ship's research and defense capabilities.\n\n(Cartridges not Included)"

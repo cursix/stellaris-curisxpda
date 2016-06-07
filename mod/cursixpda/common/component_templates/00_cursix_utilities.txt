@@ -3,7 +3,7 @@ utility_component_template = {
 	size = medium
 	icon = "GFX_ship_part_cursix_science_idevice"
 	icon_frame = 1
-	power = 10
+	power = -10
 	cost = 10
 	armor_value = 100
 	science_lab_speed = 3
@@ -27,6 +27,6 @@ utility_component_template = {
 	prerequisites = { "tech_cursixpda_idevice" }
 	
 	ai_weight = {
-		weight = 1
+		weight = 0
 	}
 }
