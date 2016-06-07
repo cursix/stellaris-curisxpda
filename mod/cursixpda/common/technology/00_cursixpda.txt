@@ -10,3 +10,16 @@ tech_cursixpda_stylus = {
 		factor = 0
 	}
 }
+
+tech_cursixpda_idevice = {
+	area = physics
+	cost = 333
+	tier = 1
+	category = { computing }
+	ai_update_type = all
+	weight = 0
+	
+	ai_weight = {
+		factor = 0
+	}
+}

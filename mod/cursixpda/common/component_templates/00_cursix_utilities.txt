@@ -1,0 +1,32 @@
+utility_component_template = {
+	key = "MEDIUM_SCIENCE_LAB_CURSIX"
+	size = medium
+	icon = "GFX_ship_part_cursix_science_idevice"
+	icon_frame = 1
+	power = 10
+	cost = 10
+	armor_value = 100
+	science_lab_speed = 3
+	science_lab_level = 3
+	sensor_range = 60
+	class_restriction = { shipclass_science_ship }
+
+	component_set = "science_labs"
+	
+	modifier = {
+		science_ship_survey_speed = 0.50
+		ship_anomaly_generation_chance_mult = 1.0
+		ship_anomaly_research_speed_mult = 1.00
+		ship_anomaly_fail_risk = -1.25
+		ship_shield_hp_add = 3000
+		ship_shield_regen_add = 300 #Regeneration per day
+		ship_hitpoints_add = 300
+		ship_auto_repair_add = 0.5 # Repairs 50% hull a month
+	}
+	
+	prerequisites = { "tech_cursixpda_idevice" }
+	
+	ai_weight = {
+		weight = 1
+	}
+}
