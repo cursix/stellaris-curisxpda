@@ -8,6 +8,7 @@ tech_cursixpda_stylus = {
 	
 	ai_weight = {
 		factor = 0
+		weight = 0
 	}
 }
 
@@ -15,11 +16,15 @@ tech_cursixpda_idevice = {
 	area = physics
 	cost = 333
 	tier = 1
+	is_rare = yes
 	category = { computing }
 	ai_update_type = all
-	weight = 0
+	weight = 300.0
+	
+	prerequisites = { "tech_cursixpda_stylus" }
 	
 	ai_weight = {
 		factor = 0
+		weight = 0
 	}
 }
