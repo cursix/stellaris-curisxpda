@@ -8,12 +8,13 @@ utility_component_template = {
 	armor_value = 100
 	science_lab_speed = 3
 	science_lab_level = 3
-	sensor_range = 60
+	can_recharge_shield = yes
 	class_restriction = { shipclass_science_ship }
 
 	component_set = "science_labs"
 	
 	modifier = {
+		ship_sensor_range_mult = 1.00
 		science_ship_survey_speed = 0.50
 		ship_anomaly_generation_chance_mult = 1.0
 		ship_anomaly_research_speed_mult = 1.00
@@ -27,6 +28,6 @@ utility_component_template = {
 	prerequisites = { "tech_cursixpda_idevice" }
 	
 	ai_weight = {
-		weight = 0
+		weight = 100
 	}
 }
