@@ -4,6 +4,7 @@ tech_cursixpda_stylus = {
 	tier = 1
 	category = { particles }
 	ai_update_type = all
+	is_reverse_engineerable = no
 	weight = 0
 	
 	ai_weight = {
@@ -19,6 +20,7 @@ tech_cursixpda_idevice = {
 	is_rare = yes
 	category = { computing }
 	ai_update_type = all
+	is_reverse_engineerable = no
 	weight = 300.0
 	
 	prerequisites = { "tech_cursixpda_stylus" }
