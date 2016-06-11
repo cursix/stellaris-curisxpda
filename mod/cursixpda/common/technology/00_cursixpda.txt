@@ -25,6 +25,13 @@ tech_cursixpda_idevice = {
 	
 	prerequisites = { "tech_cursixpda_stylus" }
 	
+	prereqfor_desc = {
+		component = {
+			title = "MEDIUM_SCIENCE_LAB_CURSIX"
+			desc = "MEDIUM_SCIENCE_LAB_CURSIX_DESC"
+		}
+	}
+	
 	ai_weight = {
 		factor = 0
 		weight = 0
