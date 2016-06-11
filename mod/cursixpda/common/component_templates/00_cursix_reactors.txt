@@ -20,7 +20,7 @@ utility_component_template = {
 	}
 	
 	ai_weight = {
-		weight = 1
+		weight = 3000
 	}
 	
 	prerequisites = { "tech_cursixpda_stylus" }
@@ -42,7 +42,7 @@ utility_component_template = {
 	}
 	
 	ai_weight = {
-		weight = 10
+		weight = 4000
 	}
 	
 	prerequisites = { "tech_cursixpda_stylus" }
@@ -64,7 +64,7 @@ utility_component_template = {
 	}
 	
 	ai_weight = {
-		weight = 20
+		weight = 5000
 	}
 	
 	prerequisites = { "tech_cursixpda_stylus"  }
