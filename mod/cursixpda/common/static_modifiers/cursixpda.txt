@@ -65,12 +65,12 @@ cursixpda_buff = {
 	ship_anomaly_research_speed_mult = 3.00
 	# FTL Stuff
 	ship_interstellar_speed_mult = 1.00
-	ship_windup_mult = -0.50
-	ship_winddown_mult = -0.60
+	ship_windup_mult = -0.75
+	ship_winddown_mult = -0.75
 	ship_ftl_warp_range_mult = 2.0
 	ship_ftl_wormhole_speed_mult = 0.25
 	ship_ftl_wormhole_range_mult = 1.00
-	ship_ftl_jumpdrive_range_mult = 1.00
+	ship_ftl_jumpdrive_range_mult = 2.00
 	spaceport_ship_build_cost_mult = -0.90 
 	spaceport_ship_build_time_mult = -0.99
 	spaceport_module_cost_mult = -0.90
