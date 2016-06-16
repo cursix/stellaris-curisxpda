@@ -1,8 +1,9 @@
+# Cursix PDA Stylus
 tech_cursixpda_stylus = {
 	area = physics
 	cost = 100
 	tier = 1
-	category = { particles }
+	category = { computing }
 	ai_update_type = all
 	is_reverse_engineerable = no
 	weight = 0
@@ -13,6 +14,7 @@ tech_cursixpda_stylus = {
 	}
 }
 
+# Mid-Childa Intelligent Devices
 tech_cursixpda_idevice = {
 	area = physics
 	cost = 333
@@ -21,7 +23,7 @@ tech_cursixpda_idevice = {
 	category = { computing }
 	ai_update_type = all
 	is_reverse_engineerable = no
-	weight = 300.0
+	weight = 50
 	
 	prerequisites = { "tech_cursixpda_stylus" }
 	
@@ -29,6 +31,61 @@ tech_cursixpda_idevice = {
 		component = {
 			title = "MEDIUM_SCIENCE_LAB_CURSIX"
 			desc = "MEDIUM_SCIENCE_LAB_CURSIX_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 12.00
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+		modifier = {
+			factor = 6.00
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_maniacal"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 0
+		weight = 0
+	}
+}
+
+# Spaceport: Cursix OS
+tech_spaceport_cursix_os = {
+	cost = 333
+	area = physics
+	tier = 1
+	is_rare = yes
+	# I would label this as dangerious but there is currently no easy way
+	# to have the module randomly change the gender of the population
+	# (Reference to Jusenkyo Curse)
+	#is_dangerous = yes
+	category = { computing }
+	prerequisites = { "tech_cursixpda_stylus" }
+	is_reverse_engineerable = no
+	weight = 50
+	
+	weight_modifier = {
+		modifier = {
+			factor = 6.00
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_computing"
+			}
+		}
+		modifier = {
+			factor = 3.00
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_maniacal"
+			}
 		}
 	}
 	

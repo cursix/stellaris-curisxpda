@@ -1,0 +1,50 @@
+spaceport_cursix_os = {
+	icon = "GFX_spaceport_cursix_os"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 12
+	prerequisites = { tech_spaceport_cursix_os }
+	spaceport_level = 1
+	
+	cost = {
+		energy = 100
+		influence = 100
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+	
+	modifier = {
+		shipsize_colonizer_construction_speed_mult = 1.00
+		shipsize_colonizer_build_cost_mult = -0.50
+	}
+	
+	produced_resources = {
+		physics_research = 12
+		society_research = 12
+		engineering_research = 12
+		influence = 1
+	}
+	
+	station_modifier = {
+		ship_accuracy_add = 60.00
+		ship_weapon_range_mult = 1.00
+		ship_fire_rate_mult = 1.00
+		ship_weapon_damage = 6.66
+		ship_hitpoints_add = 6000
+		ship_auto_repair_add = 0.5 # Repair 50% of total HP per month
+		ship_armor_add = 333
+		ship_shield_hp_add = 12000
+		ship_shield_regen_add = 100.0
+		ship_shield_regen_add_perc = 0.50 # Regen 50% of total Shield HP per month
+		ship_upkeep_mult = -0.99
+	}
+	
+	planet_modifier = {
+		planet_sensor_range_mult = 1.00
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}

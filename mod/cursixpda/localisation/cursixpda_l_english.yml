@@ -29,6 +29,8 @@ tech_cursixpda_stylus:0 "Cursix PDA Stylus"
 tech_cursixpda_stylus_desc:0 "Adds a biometal tipped, netronium alloyed stylus to use with the Cursix PDA."
 tech_cursixpda_idevice:0 "Mid-Childa Intelligent Devices"
 tech_cursixpda_idevice_desc:0 "Normally reserved for mages in Mid-Childa, these devices can be used by our scientists as lab assistants on our Science Vessels"
+tech_spaceport_cursix_os:0 "Spaceport: Cursix OS"
+tech_spaceport_cursix_os_desc:0 "MM Inc. and Jusenkyo Enterprises now bring you the Power of the Unix Command System fused with MM's own curse energy in an easy to curse operating system! MM Cursix is a revolutionary Operating System that can be used for Desktops, Workstations, Laptops, Servers, and Dimensional Scale Servers!\n\nMM Cursix is programmed to resist all types of attacks, whether it's virus, hacker, accidental, Sabotage, Psychic, War, or even the collapse of the Matrix itself! (Not Guaranteed to survive an MM Anger Blast)\n\n§LTo Order MM Cursix, please bash your head on the wall and Yell "MM" three times, and MM will arrive shortly to make your order! Please note that it might take MM two hundred years to travel to locations outside the NCA, or Normal Cursing Area.§!"
 
 ####################################
 # Component Utilities
@@ -41,3 +43,10 @@ MEDIUM_CURSIXPDA_9V_BAT:0 "Medium Cursix 9V Battery"
 LARGE_CURSIXPDA_9V_BAT:0 "Large Cursix 9V Battery"
 MEDIUM_SCIENCE_LAB_CURSIX:0 "Intelligent Device Science Lab"
 MEDIUM_SCIENCE_LAB_CURSIX_DESC:0 "Adding a Mid-Childa Intelligent to the Science Lab greatly improves ship's research and defense capabilities.\n\n(Cartridges not Included)"
+
+####################################
+# Planet View
+####################################
+ 
+sm_spaceport_cursix_os:0 "Cursix OS"
+sm_spaceport_cursix_os_desc:0 "\n§EThe §HSpaceport§! is equipped with the Cursix OS; greatly increasing defense capabilities at the cost of some pranks.§!"

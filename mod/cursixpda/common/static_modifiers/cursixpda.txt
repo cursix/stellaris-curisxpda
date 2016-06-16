@@ -66,7 +66,7 @@ cursixpda_buff = {
 	# FTL Stuff
 	ship_interstellar_speed_mult = 1.00
 	ship_windup_mult = -0.75
-	ship_winddown_mult = -0.75
+	ship_winddown_mult = -0.90
 	ship_ftl_warp_range_mult = 2.0
 	ship_ftl_wormhole_speed_mult = 0.25
 	ship_ftl_wormhole_range_mult = 1.00
