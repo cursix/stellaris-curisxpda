@@ -12,6 +12,6 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_spaceport_cursix_os"
-		texturefile = "gfx/interface/icons/technologies/tech_spaceport_cursix_os.dds"
+		texturefile = "gfx/interface/icons/modules/spaceport_module_cursix_os.dds"
 	}
 }
