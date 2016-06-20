@@ -14,4 +14,9 @@ spriteTypes = {
 		name = "GFX_spaceport_cursix_os"
 		texturefile = "gfx/interface/icons/modules/spaceport_module_cursix_os.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_ship_part_cursix_computer_idevice"
+		texturefile = "gfx/interface/icons/ship_parts/ship_part_cursix_computer_idevice.dds"
+	}
 }

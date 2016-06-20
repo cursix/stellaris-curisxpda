@@ -29,8 +29,8 @@ tech_cursixpda_idevice = {
 	
 	prereqfor_desc = {
 		component = {
-			title = "MEDIUM_SCIENCE_LAB_CURSIX"
-			desc = "MEDIUM_SCIENCE_LAB_CURSIX_DESC"
+			title = "TECH_UNLOCK_CURSIX_IDEVICE_1_TITLE"
+			desc = "tech_cursixpda_idevice_desc"
 		}
 	}
 	

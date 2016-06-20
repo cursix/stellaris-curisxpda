@@ -28,9 +28,12 @@ cursixpda.2.desc:0 "Shall Cursix curse your empire?"
 tech_cursixpda_stylus:0 "Cursix PDA Stylus"
 tech_cursixpda_stylus_desc:0 "Adds a biometal tipped, netronium alloyed stylus to use with the Cursix PDA."
 tech_cursixpda_idevice:0 "Mid-Childa Intelligent Devices"
-tech_cursixpda_idevice_desc:0 "Normally reserved for mages in Mid-Childa, these devices can be used by our scientists as lab assistants on our Science Vessels"
+tech_cursixpda_idevice_desc:0 "Intelligent Devices are devices that incorporate sophisticated artificial intelligence in their programming, enabling them to have some degree of autonomy. This leads to various options from Science Ships to Military Applications.\n\n§LCartridges may or may not be included. Please do not substitute Mana for Nine-Tails Charka as this may result in a reality extinction event.§!"
 tech_spaceport_cursix_os:0 "Spaceport: Cursix OS"
 tech_spaceport_cursix_os_desc:0 "MM Inc. and Jusenkyo Enterprises now bring you the Power of the Unix Command System fused with MM's own curse energy in an easy to curse operating system! MM Cursix is a revolutionary Operating System that can be used for Desktops, Workstations, Laptops, Servers, and Dimensional Scale Servers!\n\nMM Cursix is programmed to resist all types of attacks, whether it's virus, hacker, accidental, Sabotage, Psychic, War, or even the collapse of the Matrix itself! (Not Guaranteed to survive an MM Anger Blast)\n\n§LTo Order MM Cursix, please bash your head on the wall and Yell "MM" three times, and MM will arrive shortly to make your order! Please note that it might take MM two hundred years to travel to locations outside the NCA, or Normal Cursing Area.§!"
+
+TECH_UNLOCK_CURSIX_IDEVICE_1_TITLE:0 "§HUnlocks Component:§! Intelligent Devices"
+
 
 ####################################
 # Component Utilities
@@ -43,6 +46,8 @@ MEDIUM_CURSIXPDA_9V_BAT:0 "Medium Cursix 9V Battery"
 LARGE_CURSIXPDA_9V_BAT:0 "Large Cursix 9V Battery"
 MEDIUM_SCIENCE_LAB_CURSIX:0 "Intelligent Device Science Lab"
 MEDIUM_SCIENCE_LAB_CURSIX_DESC:0 "Adding a Mid-Childa Intelligent to the Science Lab greatly improves ship's research and defense capabilities.\n\n(Cartridges not Included)"
+COMBAT_COMPUTER_IDEVICE:0 "Intelligent Device Combat Computer"
+COMBAT_COMPUTER_IDEVICE_DESC:1 "The onboard computer is replaced with a Mid-Child Intelligent Device, synchronized to the captain as if they were a Mid-Childa Mage. This greatly improvdes ship combat readiness and survivability.\n\nStandby Ready!"
 
 ####################################
 # Planet View
