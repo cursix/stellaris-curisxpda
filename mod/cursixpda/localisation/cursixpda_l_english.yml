@@ -47,7 +47,7 @@ LARGE_CURSIXPDA_9V_BAT:0 "Large Cursix 9V Battery"
 MEDIUM_SCIENCE_LAB_CURSIX:0 "Intelligent Device Science Lab"
 MEDIUM_SCIENCE_LAB_CURSIX_DESC:0 "Adding a Mid-Childa Intelligent to the Science Lab greatly improves ship's research and defense capabilities.\n\n(Cartridges not Included)"
 COMBAT_COMPUTER_IDEVICE:0 "Intelligent Device Combat Computer"
-COMBAT_COMPUTER_IDEVICE_DESC:1 "The onboard computer is replaced with a Mid-Child Intelligent Device, synchronized to the captain as if they were a Mid-Childa Mage. This greatly improvdes ship combat readiness and survivability.\n\nStandby Ready!"
+COMBAT_COMPUTER_IDEVICE_DESC:1 "The onboard computer is replaced with a Mid-Child Intelligent Device, synchronized to the captain as if they were a Mid-Childa Mage. This greatly improves ship combat readiness and survivability.\n\nStandby Ready!"
 
 ####################################
 # Planet View

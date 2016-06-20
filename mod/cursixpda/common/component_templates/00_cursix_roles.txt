@@ -20,7 +20,7 @@ utility_component_template = {
 	}
 	
 	ai_weight = {
-		weight = 500
+		weight = 1000
 	}
 	
 	class_restriction = { shipclass_military }
