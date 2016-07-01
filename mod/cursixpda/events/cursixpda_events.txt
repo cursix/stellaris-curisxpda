@@ -15,7 +15,6 @@ country_event = {
 	}
 	picture = GFX_evt_cybernetics
 	
-	
 	is_triggered_only = yes
 
 	trigger = {
@@ -26,8 +25,17 @@ country_event = {
 		name = YES
 		add_modifier = { modifier = "cursixpda_buff" days = -1 }
 		give_technology = tech_cursixpda_stylus
+		give_technology = tech_colonization_1
+		give_technology = tech_desert_colonization
+		give_technology = tech_tropical_colonization
+		give_technology = tech_continental_colonization
+		give_technology = tech_ocean_colonization
+		give_technology = tech_arctic_colonization
+		give_technology = tech_tundra_colonization
+		give_technology = tech_arid_colonization
 		add_research_option = tech_cursixpda_idevice
 		add_research_option = tech_psionic_theory
+		add_research_option = tech_jump_drive_1
 	}
 	option = {
 		name = NO
@@ -43,7 +51,6 @@ country_event = {
 	}
 	picture = GFX_evt_cybernetics
 	
-	
 	is_triggered_only = yes
 
 	trigger = {
@@ -51,10 +58,20 @@ country_event = {
 	}
 	
 	option = {
+		name = YES
 		add_modifier = { modifier = "cursixpda_buff" days = -1 }
 		give_technology = tech_cursixpda_stylus
+		give_technology = tech_colonization_1
+		give_technology = tech_desert_colonization
+		give_technology = tech_tropical_colonization
+		give_technology = tech_continental_colonization
+		give_technology = tech_ocean_colonization
+		give_technology = tech_arctic_colonization
+		give_technology = tech_tundra_colonization
+		give_technology = tech_arid_colonization
 		add_research_option = tech_cursixpda_idevice
 		add_research_option = tech_psionic_theory
+		add_research_option = tech_jump_drive_1
 	}
 	option = {
 		name = NO

@@ -3,24 +3,28 @@ utility_component_template = {
 	size = small
 	icon = "GFX_ship_part_cursix_computer_idevice"
 	icon_frame = 1
-	power = 0
-	cost = 0
+	power = -10
+	cost = 10
 	ship_behavior = "default"
 	can_recharge_shield = yes
 	modifier = {
-		ship_weapon_range_mult = 0.10
-		ship_fire_rate_mult = 0.25
-		ship_weapon_damage = 0.25
 		ship_evasion_add = 25
-		ship_sensor_range_mult = 0.50
 		ship_shield_hp_add = 300
 		ship_shield_regen_add = 10
 		ship_auto_repair_add = 0.10
 		ship_shield_regen_add_perc = 0.10
 	}
 	
+	ship_modifier = {
+		ship_weapon_range_mult = 0.10
+		ship_fire_rate_mult = 0.25
+		ship_weapon_damage = 0.25
+		ship_accuracy_add = 10
+		ship_sensor_range_mult = 0.10
+	}
+	
 	ai_weight = {
-		weight = 1000
+		weight = 100000
 	}
 	
 	class_restriction = { shipclass_military }

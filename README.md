@@ -9,4 +9,6 @@ Cursix PDA provides the following in Stellaris:
 - CursixPDA global modifier (Buff)
 - Cursix PDA Stylus (Research)
 - Cursix 9V Battery (Power & Shield Utility)
+- Intelligent Device Science Lab (Science Ship Lab)
+- Cursix OS (Spaceport Module)
 - Insanity!

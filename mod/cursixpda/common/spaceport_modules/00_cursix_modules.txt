@@ -7,7 +7,6 @@ spaceport_cursix_os = {
 	
 	cost = {
 		energy = 100
-		influence = 100
 	}
 	
 	required_resources = {
@@ -45,6 +44,6 @@ spaceport_cursix_os = {
 	}
 	
 	ai_weight = {
-		weight = 0
+		weight = 100
 	}
 }
