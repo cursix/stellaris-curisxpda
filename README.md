@@ -7,6 +7,7 @@ Created for *(certain)* individuals who hate to lose and enjoy overpowered playe
 Cursix PDA provides the following in Stellaris:
 - Available only to players
 - CursixPDA global modifier (Buff)
+- CursixPDA decaff global modifier (Light version of CursixPDA Buff)
 - Cursix PDA Stylus (Research)
 - Cursix 9V Battery (Power & Shield Utility)
 - Intelligent Device Science Lab (Science Ship Lab)

@@ -2,6 +2,7 @@
 
  YES:0 "Yes"
  NO:0 "No"
+ CURSIXDECAF:0 "Can I have decaf instead?"
 
  ####################################
  # Strat Modifiers
@@ -9,8 +10,9 @@
 
  cursixpda_buff:0 "Cursix PDA"
  cursixpda_buff_desc:0 "§LThat little PDA on the moon has been turned on again!§!\n"
- 
- 
+ cursixpda_decaf_buff:0 "Cursix PDA Decaf"
+ cursixpda_decaf_buff_desc:0 "§LThat little PDA on the moon is watching its cafine.§!\n"
+  
 
 ####################################
 # Events
