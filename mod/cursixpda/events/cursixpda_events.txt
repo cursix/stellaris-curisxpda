@@ -26,32 +26,19 @@ country_event = {
 		add_modifier = { modifier = "cursixpda_buff" days = -1 }
 		give_technology = tech_cursixpda_stylus
 		add_research_option = tech_colonization_1
-		add_research_option = tech_desert_colonization
-		add_research_option = tech_tropical_colonization
-		add_research_option = tech_continental_colonization
-		add_research_option = tech_ocean_colonization
-		add_research_option = tech_arctic_colonization
-		add_research_option = tech_tundra_colonization
-		add_research_option = tech_arid_colonization
-		add_research_option = tech_cursixpda_idevice
-		add_research_option = tech_psionic_theory
 		add_research_option = tech_jump_drive_1
+		add_research_option = tech_psi_jump_drive_1
+		add_research_option = tech_spaceport_cursix_os
+		add_research_option = tech_cursixpda_idevice
+		
 	}
 	option = {
 		name = CURSIXDECAF
 		add_modifier = { modifier = "cursixpda_decaf_buff" days = -1 }
 		give_technology = tech_cursixpda_stylus
 		add_research_option = tech_colonization_1
-		add_research_option = tech_desert_colonization
-		add_research_option = tech_tropical_colonization
-		add_research_option = tech_continental_colonization
-		add_research_option = tech_ocean_colonization
-		add_research_option = tech_arctic_colonization
-		add_research_option = tech_tundra_colonization
-		add_research_option = tech_arid_colonization
-		add_research_option = tech_cursixpda_idevice
-		add_research_option = tech_psionic_theory
 		add_research_option = tech_jump_drive_1
+		add_research_option = tech_psi_jump_drive_1
 	}
 	option = {
 		name = NO
@@ -78,32 +65,19 @@ country_event = {
 		add_modifier = { modifier = "cursixpda_buff" days = -1 }
 		give_technology = tech_cursixpda_stylus
 		add_research_option = tech_colonization_1
-		add_research_option = tech_desert_colonization
-		add_research_option = tech_tropical_colonization
-		add_research_option = tech_continental_colonization
-		add_research_option = tech_ocean_colonization
-		add_research_option = tech_arctic_colonization
-		add_research_option = tech_tundra_colonization
-		add_research_option = tech_arid_colonization
-		add_research_option = tech_cursixpda_idevice
-		add_research_option = tech_psionic_theory
 		add_research_option = tech_jump_drive_1
+		add_research_option = tech_psi_jump_drive_1
+		add_research_option = tech_spaceport_cursix_os
+		add_research_option = tech_cursixpda_idevice
+		
 	}
 	option = {
 		name = CURSIXDECAF
 		add_modifier = { modifier = "cursixpda_decaf_buff" days = -1 }
 		give_technology = tech_cursixpda_stylus
 		add_research_option = tech_colonization_1
-		add_research_option = tech_desert_colonization
-		add_research_option = tech_tropical_colonization
-		add_research_option = tech_continental_colonization
-		add_research_option = tech_ocean_colonization
-		add_research_option = tech_arctic_colonization
-		add_research_option = tech_tundra_colonization
-		add_research_option = tech_arid_colonization
-		add_research_option = tech_cursixpda_idevice
-		add_research_option = tech_psionic_theory
 		add_research_option = tech_jump_drive_1
+		add_research_option = tech_psi_jump_drive_1
 	}
 	option = {
 		name = NO
