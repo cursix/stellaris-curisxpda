@@ -5,5 +5,5 @@ tags={
 	"Balance"
 	"Gameplay"
 }
-supported_version="1.3.*"
+supported_version="1.4.*"
 picture="cursix_pda.png"
