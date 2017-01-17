@@ -25,11 +25,11 @@ country_event = {
 		name = YES
 		add_modifier = { modifier = "cursixpda_buff" days = -1 }
 		give_technology = tech_cursixpda_stylus
+		give_technology  = tech_spaceport_cursix_os
+		give_technology  = tech_cursixpda_idevice
 		add_research_option = tech_colonization_1
 		add_research_option = tech_jump_drive_1
 		add_research_option = tech_psi_jump_drive_1
-		add_research_option = tech_spaceport_cursix_os
-		add_research_option = tech_cursixpda_idevice
 		
 	}
 	option = {
@@ -64,11 +64,11 @@ country_event = {
 		name = YES
 		add_modifier = { modifier = "cursixpda_buff" days = -1 }
 		give_technology = tech_cursixpda_stylus
+		give_technology  = tech_spaceport_cursix_os
+		give_technology  = tech_cursixpda_idevice
 		add_research_option = tech_colonization_1
 		add_research_option = tech_jump_drive_1
 		add_research_option = tech_psi_jump_drive_1
-		add_research_option = tech_spaceport_cursix_os
-		add_research_option = tech_cursixpda_idevice
 		
 	}
 	option = {

@@ -31,3 +31,213 @@ utility_component_template = {
 	prerequisites = { "tech_cursixpda_idevice" }
 	component_set = "combat_computers"
 }
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_IDEVICE_AGGRESSIVE"
+	size = small
+	icon = "GFX_ship_part_cursix_computer_idevice"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	ship_behavior = "aggressive"
+	can_recharge_shield = yes
+	modifier = {
+		ship_evasion_add = 25
+		ship_shield_hp_add = 300
+		ship_shield_regen_add = 10
+		ship_auto_repair_add = 0.10
+		ship_shield_regen_add_perc = 0.10
+	}
+	
+	ship_modifier = {
+		ship_weapon_range_mult = 0.10
+		ship_fire_rate_mult = 0.25
+		ship_weapon_damage = 0.25
+		ship_accuracy_add = 10
+		ship_sensor_range_mult = 0.10
+	}
+	
+	ai_weight = {
+		weight = 100000
+	}
+	
+	class_restriction = { shipclass_military }
+	size_restriction = { corvette cruiser }
+	prerequisites = { "tech_cursixpda_idevice" }
+	component_set = "combat_computers"
+}
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_IDEVICE_DEFENSIVE"
+	size = small
+	icon = "GFX_ship_part_cursix_computer_idevice"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	ship_behavior = "defensive"
+	can_recharge_shield = yes
+	modifier = {
+		ship_evasion_add = 25
+		ship_shield_hp_add = 300
+		ship_shield_regen_add = 10
+		ship_auto_repair_add = 0.10
+		ship_shield_regen_add_perc = 0.10
+	}
+	
+	ship_modifier = {
+		ship_weapon_range_mult = 0.10
+		ship_fire_rate_mult = 0.25
+		ship_weapon_damage = 0.25
+		ship_accuracy_add = 10
+		ship_sensor_range_mult = 0.10
+	}
+	
+	ai_weight = {
+		weight = 100000
+	}
+	
+	class_restriction = { shipclass_military }
+	size_restriction = { corvette cruiser }
+	prerequisites = { "tech_cursixpda_idevice" }
+	component_set = "combat_computers"
+}
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_IDEVICE_CORVETTE"
+	size = small
+	icon = "GFX_ship_part_cursix_computer_idevice"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	ship_behavior = "corvette_default"
+	can_recharge_shield = yes
+	modifier = {
+		ship_evasion_add = 25
+		ship_shield_hp_add = 300
+		ship_shield_regen_add = 10
+		ship_auto_repair_add = 0.10
+		ship_shield_regen_add_perc = 0.10
+	}
+	
+	ship_modifier = {
+		ship_weapon_range_mult = 0.10
+		ship_fire_rate_mult = 0.25
+		ship_weapon_damage = 0.25
+		ship_accuracy_add = 10
+		ship_sensor_range_mult = 0.10
+	}
+	
+	ai_weight = {
+		weight = 100000
+	}
+	
+	class_restriction = { shipclass_military }
+	size_restriction = { corvette }
+	component_set = "combat_computers"
+	prerequisites = { "tech_cursixpda_idevice" }
+}
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_IDEVICE_DESTROYER"
+	size = small
+	icon = "GFX_ship_part_cursix_computer_idevice"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	ship_behavior = "destroyer_default"
+	can_recharge_shield = yes
+	modifier = {
+		ship_evasion_add = 25
+		ship_shield_hp_add = 300
+		ship_shield_regen_add = 10
+		ship_auto_repair_add = 0.10
+		ship_shield_regen_add_perc = 0.10
+	}
+	
+	ship_modifier = {
+		ship_weapon_range_mult = 0.10
+		ship_fire_rate_mult = 0.25
+		ship_weapon_damage = 0.25
+		ship_accuracy_add = 10
+		ship_sensor_range_mult = 0.10
+	}
+	
+	ai_weight = {
+		weight = 100000
+	}
+	
+	class_restriction = { shipclass_military }
+	size_restriction = { destroyer }
+	component_set = "combat_computers"
+	prerequisites = { "tech_cursixpda_idevice" }
+}
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_IDEVICE_CRUISER"
+	size = small
+	icon = "GFX_ship_part_cursix_computer_idevice"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	ship_behavior = "cruiser_default"
+	can_recharge_shield = yes
+	modifier = {
+		ship_evasion_add = 25
+		ship_shield_hp_add = 300
+		ship_shield_regen_add = 10
+		ship_auto_repair_add = 0.10
+		ship_shield_regen_add_perc = 0.10
+	}
+	
+	ship_modifier = {
+		ship_weapon_range_mult = 0.10
+		ship_fire_rate_mult = 0.25
+		ship_weapon_damage = 0.25
+		ship_accuracy_add = 10
+		ship_sensor_range_mult = 0.10
+	}
+	
+	ai_weight = {
+		weight = 100000
+	}
+	
+	class_restriction = { shipclass_military }
+	size_restriction = { cruiser }
+	component_set = "combat_computers"
+	prerequisites = { "tech_cursixpda_idevice" }
+}
+
+utility_component_template = {
+	key = "COMBAT_COMPUTER_IDEVICE_BATTLESHIP"
+	size = small
+	icon = "GFX_ship_part_cursix_computer_idevice"
+	icon_frame = 1
+	power = -10
+	cost = 10
+	ship_behavior = "battleship_sniper"
+	can_recharge_shield = yes
+	modifier = {
+		ship_evasion_add = 25
+		ship_shield_hp_add = 300
+		ship_shield_regen_add = 10
+		ship_auto_repair_add = 0.10
+		ship_shield_regen_add_perc = 0.10
+	}
+	
+	ship_modifier = {
+		ship_weapon_range_mult = 0.10
+		ship_fire_rate_mult = 0.25
+		ship_weapon_damage = 0.25
+		ship_accuracy_add = 10
+		ship_sensor_range_mult = 0.10
+	}
+	
+	ai_weight = {
+		weight = 100000
+	}
+	
+	class_restriction = { shipclass_military }
+	size_restriction = { battleship }
+	component_set = "combat_computers"
+	prerequisites = { "tech_cursixpda_idevice" }
+}

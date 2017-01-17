@@ -50,6 +50,18 @@ MEDIUM_SCIENCE_LAB_CURSIX:0 "Intelligent Device Science Lab"
 MEDIUM_SCIENCE_LAB_CURSIX_DESC:0 "Adding a Mid-Childa Intelligent to the Science Lab greatly improves ship's research and defense capabilities.\n\n(Cartridges not Included)"
 COMBAT_COMPUTER_IDEVICE:0 "Intelligent Device Combat Computer"
 COMBAT_COMPUTER_IDEVICE_DESC:1 "The onboard computer is replaced with a Mid-Child Intelligent Device, synchronized to the captain as if they were a Mid-Childa Mage. This greatly improves ship combat readiness and survivability.\n\nStandby Ready!"
+COMBAT_COMPUTER_IDEVICE_AGGRESSIVE:0 "IDCC: Aggressive"
+COMBAT_COMPUTER_IDEVICE_AGGRESSIVE_DESC:1 "Intelligent Device Combat Computer set to Aggressive Behavior"
+COMBAT_COMPUTER_IDEVICE_DEFENSIVE:0 "IDCC: Deffensive"
+COMBAT_COMPUTER_IDEVICE_DEFENSIVE_DESC:1 "Intelligent Device Combat Computer set to Deffensive Behavior"
+COMBAT_COMPUTER_IDEVICE_CORVETTE:0 "IDCC: Corvette"
+COMBAT_COMPUTER_IDEVICE_CORVETTE_DESC:1 "Intelligent Device Combat Computer set to Corvette Behavior"
+COMBAT_COMPUTER_IDEVICE_DESTROYER:0 "IDCC: Destroyer"
+COMBAT_COMPUTER_IDEVICE_DESTROYER_DESC:1 "Intelligent Device Combat Computer set to Destroyer Behavior"
+COMBAT_COMPUTER_IDEVICE_CRUISER:0 "IDCC: Cruiser"
+COMBAT_COMPUTER_IDEVICE_CRUISER_DESC:1 "Intelligent Device Combat Computer set to Cruiser Behavior"
+COMBAT_COMPUTER_IDEVICE_BATTLESHIP:0 "IDCC: Battleship"
+COMBAT_COMPUTER_IDEVICE_BATTLESHIP_DESC:1 "Intelligent Device Combat Computer set to Battleship Behavior"
 
 ####################################
 # Planet View
