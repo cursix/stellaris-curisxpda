@@ -5,6 +5,7 @@ utility_component_template = {
 	icon_frame = 1
 	power = -25
 	cost = 10
+	armor_value = 50
 	armor_value = 100
 	science_lab_speed = 3
 	science_lab_level = 3
@@ -17,16 +18,18 @@ utility_component_template = {
 		science_ship_survey_speed = 0.50
 		ship_anomaly_generation_chance_mult = 1.0
 		ship_anomaly_research_speed_mult = 1.00
-		ship_anomaly_fail_risk = -1.25
+		ship_anomaly_fail_risk = -0.90
 		ship_shield_hp_add = 3000
 		ship_shield_regen_add = 300 #Regeneration per day
-		ship_hitpoints_add = 300
+		ship_hitpoints_add = 3000
 		ship_auto_repair_add = 0.5 # Repairs 50% hull a month
 		ship_shield_regen_add_perc = 1.00
+		ship_combat_speed_mult = 1.00
 	}
 	
 	ship_modifier = {
 		ship_sensor_range_mult = 1.00
+		ship_anomaly_fail_risk = -0.90
 	}
 	
 	prerequisites = { "tech_cursixpda_idevice" }
