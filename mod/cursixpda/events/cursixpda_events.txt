@@ -24,9 +24,9 @@ country_event = {
 	option = {
 		name = YES
 		add_modifier = { modifier = "cursixpda_buff" days = -1 }
-		give_technology = tech_cursixpda_stylus
-		give_technology  = tech_spaceport_cursix_os
-		give_technology  = tech_cursixpda_idevice
+		give_technology = { tech = "tech_cursixpda_stylus" message = yes }
+		give_technology  = { tech = "tech_spaceport_cursix_os" message = no }
+		give_technology  = { tech = "tech_cursixpda_idevice" message = no }
 		add_research_option = tech_colonization_1
 		add_research_option = tech_jump_drive_1
 		add_research_option = tech_psi_jump_drive_1
@@ -35,7 +35,7 @@ country_event = {
 	option = {
 		name = CURSIXDECAF
 		add_modifier = { modifier = "cursixpda_decaf_buff" days = -1 }
-		give_technology = tech_cursixpda_stylus
+		give_technology = { tech = "tech_cursixpda_stylus" message = yes }
 		add_research_option = tech_colonization_1
 		add_research_option = tech_jump_drive_1
 		add_research_option = tech_psi_jump_drive_1
@@ -63,9 +63,9 @@ country_event = {
 	option = {
 		name = YES
 		add_modifier = { modifier = "cursixpda_buff" days = -1 }
-		give_technology = tech_cursixpda_stylus
-		give_technology  = tech_spaceport_cursix_os
-		give_technology  = tech_cursixpda_idevice
+		give_technology = { tech = "tech_cursixpda_stylus" message = yes }
+		give_technology  = { tech = "tech_spaceport_cursix_os" message = no }
+		give_technology  = { tech = "tech_cursixpda_idevice" message = no }
 		add_research_option = tech_colonization_1
 		add_research_option = tech_jump_drive_1
 		add_research_option = tech_psi_jump_drive_1
@@ -74,7 +74,7 @@ country_event = {
 	option = {
 		name = CURSIXDECAF
 		add_modifier = { modifier = "cursixpda_decaf_buff" days = -1 }
-		give_technology = tech_cursixpda_stylus
+		give_technology = { tech = "tech_cursixpda_stylus" message = yes }
 		add_research_option = tech_colonization_1
 		add_research_option = tech_jump_drive_1
 		add_research_option = tech_psi_jump_drive_1
